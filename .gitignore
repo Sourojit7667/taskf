@@ -32,3 +32,6 @@ backend/*.exe
 *.njsproj
 *.sln
 *.sw?
+
+# Backend folder (separate repo)
+backend/
