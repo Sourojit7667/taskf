@@ -27,6 +27,7 @@ export default function TaskForm({ onTaskCreated, editTask, onClose }) {
 
       const taskData = {
         user_id: user.id,
+        user_email: user.email, // Store user's email for reminder notifications
         title,
         description,
         scheduled_date: scheduledDate.toISOString(),
